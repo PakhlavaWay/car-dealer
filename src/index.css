@@ -13,6 +13,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .myWrapper {
   width: 90%;
   margin: 0 auto;
@@ -24,4 +28,22 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
+.swiper {
+  position: relative;
+}
 
+.swiper .swiper-button-next {
+  position: absolute;
+  left: 20%;
+  right: 0;
+  top: 84%;
+  margin: auto;
+}
+
+.swiper .swiper-button-prev {
+  position: absolute;
+  left: 0;
+  right: 20%;
+  top: 84%;
+  margin: auto;
+}

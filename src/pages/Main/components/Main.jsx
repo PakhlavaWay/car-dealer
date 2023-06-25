@@ -28,7 +28,7 @@ const Main = () => {
           </div>
           <div className="flex gap-2 items-end">
             <LocationOnIcon />
-            <p>4504 Skyview Dr., Mason, OH</p>
+            <p>45040 Skyview Dr., Mason, OH</p>
           </div>
         </div>
       </div>

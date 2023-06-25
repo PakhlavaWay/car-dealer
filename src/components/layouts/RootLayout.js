@@ -6,7 +6,7 @@ import Footer from '../../modules/Footer/Footer'
 const RootLayout = () => {
   return (
     <div className='relative'>
-        {/* <Header /> */}
+        <Header />
         <Outlet/>
         <Footer />
     </div>
